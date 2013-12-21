@@ -1,0 +1,1 @@
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ postfix/smtpd\[[0-9]+\]: warning: hostname [.[:alnum:]-]+ does not resolve to address [\.0-9]+: Name or service not known

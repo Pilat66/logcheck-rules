@@ -1,0 +1,3 @@
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ vpnc\[[0-9]+\]: select: Interrupted system call
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ vpnc\[[0-9]+\]: terminated by signal: 15
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ vpnc\[[0-9]+\]: connection terminated by dead peer detection

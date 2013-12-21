@@ -1,0 +1,27 @@
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ pmxcfs\[[0-9]+\]: \[dcdb\] notice: data verification successful
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ rrdcached\[[0-9]+\]: flushing old values
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ rrdcached\[[0-9]+\]: rotating journals
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ rrdcached\[[0-9]+\]: started new journal
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ rrdcached\[[0-9]+\]: removing old journal
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ pvedaemon\[[0-9]+\]: starting [0-9] worker\(s\)
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ pvedaemon\[[0-9]+\]: worker [0-9] started
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ pvedaemon\[[0-9]+\]: worker [0-9] finished
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ pvedaemon\[[0-9]+\]: <root@pam> starting task UPID
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ pvedaemon\[[0-9]+\]: <root@pam> end task UPID
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ pvedaemon\[[0-9]+\]: received interrupt
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ pvedaemon\[[0-9]+\]: worker [0-9]+ finished
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ pvedaemon\[[0-9]+\]: starting [0-9]+ worker\(s\)
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ pvedaemon\[[0-9]+\]: worker [0-9]+ started
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ vzdump\[[0-9]+\]: INFO: Finished Backup of VM [0-9]+ \([0-9][0-9]:[0-9][0-9]:[0-9][0-9]\)
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ vzdump\[[0-9]+\]: INFO: Starting Backup of VM [0-9]+ \(openvz\)
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ pvestatd\[[0-9]+\]: status update time
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ qm\[[0-9]+\]: <root@pam> update VM [0-9]+: -lock backup
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ pvedaemon\[[0-9]+\]: 
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ pvedaemon\[[0-9]+\]: 
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ pmxcfs\[[0-9]+\]: \[status\] notice: received log
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ vzdump\[[0-9]+\]: <root@pam> starting task UPID:[._[:alnum:]-]+:
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ vzdump\[[0-9]+\]: INFO: starting new backup job: vzdump
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ pmxcfs\[[0-9]+\]: \[status\] notice: received log
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ vzdump\[[0-9]+\]: INFO: Finished Backup of VM [0-9]+ \([0-9]+:[0-9]+:[0-9]+\)
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ vzdump\[[0-9]+\]: INFO: Starting Backup of VM [0-9]+ \(qemu\)
+\[^\w{3} [ :[:digit:]]{11}\] \[error\] \[client [.0-9]+\] File does not exist: /usr/share/pve-manager/images/favicon.ico

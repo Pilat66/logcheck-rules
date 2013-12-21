@@ -1,0 +1,3 @@
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ ntpd\[[0-9]+\]: Deleting interface #[0-9]+ tap[0-9]+i[0-9]+, [^,]+, interface stats: 
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ ntpd\[[0-9]+\]: Listen normally on [0-9]+
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ ntpd\[[0-9]+\]: kernel time sync status change [0-9]+$

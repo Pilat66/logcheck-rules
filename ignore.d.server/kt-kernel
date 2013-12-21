@@ -1,0 +1,6 @@
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ kernel: vmbr[0-9]+: port [0-9]+\([[:alnum:]]+\) entering forwarding state
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ kernel: ext3_orphan_cleanup: deleting unreferenced inode [0-9]+
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ kernel: EXT3-fs: barriers disabled
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ kernel: device tap[0-9]+i[0-9]+ entered promiscuous mode
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ kernel: EXT3-fs \(dm-[0-9]+\): recovery complete
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ kernel: EXT3-fs \(dm-[0-9]+\): [0-9]+ orphan inodes deleted

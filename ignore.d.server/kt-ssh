@@ -1,0 +1,5 @@
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[0-9]+\]: Received disconnect from [\.0-9]+: 11: PECL\/ssh2 \(http:\/\/pecl.php.net\/packages\/ssh2\) \[preauth\]
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[0-9]+\]: error: Failed to allocate internet-domain X11 display socket.
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[0-9]+\]: Received disconnect from [\.0-9]+: 11: Normal Shutdown, Thank you for playing \[preauth\]
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[0-9]+\]: Received disconnect from [\.0-9]+: 13: Unable to authenticate \[preauth\]
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[0-9]+\]: Received signal 15; terminating.

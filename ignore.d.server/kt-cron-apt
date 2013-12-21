@@ -1,0 +1,4 @@
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: CRON-APT ACTION: 4-upgrade
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: ----- DIFF END HERE -----
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: CRON-APT LINE: /usr/bin/apt-get -o quiet=1 upgrade -y  -o quiet=2
+
