@@ -1,4 +1,19 @@
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: CRON-APT ACTION: 4-upgrade
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: ----- DIFF END HERE -----
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: CRON-APT LINE: /usr/bin/apt-get -o quiet=1 upgrade -y  -o quiet=2
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: [ \+\-]?Unpacking replacement .+ \.\.\.
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: [ \+\-]?Setting up .+ \.\.\.
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: [ \+\-]?Preparing to replace .+ \.\.\.
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: [ \+\-]?\(Reading database ... [0-9]+ files and directories currently installed\.\)
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: [ \+\-]?Processing triggers for .+ \.\.\.
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: [ \+\-]?Reading changelogs\.\.\.
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: [ \+\-]?Reading state information\.\.\.
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: [ \+\-]?The following packages will be upgraded\:
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: [ \+\-]?Need to get [0-9]+ kB of archives\.
+Fetched 2179 kB in 0s (2831 kB/s)
+Get:1 http://security.debian.org/ wheezy/updates/main curl amd64 7.26.0-1+wheezy7 [269 kB]
+  gnupg gpgv
+Building dependency tree...
+CRON-APT LINE: /usr/bin/apt-get -o quiet=1 dist-upgrade  -y -o APT::Get::Show-Upgraded=true
+
 
