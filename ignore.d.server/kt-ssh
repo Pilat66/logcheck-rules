@@ -2,4 +2,6 @@
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[0-9]+\]: error: Failed to allocate internet-domain X11 display socket.
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[0-9]+\]: Received disconnect from [\.0-9]+: 11: Normal Shutdown, Thank you for playing \[preauth\]
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[0-9]+\]: Received disconnect from [\.0-9]+: 13: Unable to authenticate \[preauth\]
-^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[0-9]+\]: Received signal 15; terminating.
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[0-9]+\]: Received signal [0-9]+; terminating.
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[0-9]+\]: PAM service\(sshd\) ignoring max retries; [0-9]+ > [0-9]+$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[0-9]+\]: Received disconnect from .+: [0-9]+: Goodbye \[preauth\]$

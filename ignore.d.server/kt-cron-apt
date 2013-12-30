@@ -1,19 +1,84 @@
-^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: CRON-APT ACTION: 4-upgrade
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: ----- DIFF END HERE -----
-^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: CRON-APT LINE: /usr/bin/apt-get -o quiet=1 upgrade -y  -o quiet=2
-^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: [ \+\-]?Unpacking replacement .+ \.\.\.
-^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: [ \+\-]?Setting up .+ \.\.\.
-^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: [ \+\-]?Preparing to replace .+ \.\.\.
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: -apt-listchanges: Mailing root: apt-listchanges: news for .+$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: -Checking for tables which need an upgrade, are corrupt or were$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: -not closed cleanly\.\.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: -Preconfiguring packages \.\.\.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: -Starting .+: .+ \.\.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: -Stopping .+: .+\.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: .+ \(.+\) wheezy-security; urgency=high$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: @@ .+ @@$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: [ \+\-]?  .+ .+$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: [ \+\-]?  [^ ]+\.?$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: [ \+\-]? \-\- .+ <.+@.+>  .+$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: [ \+\-]?$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: [ \+\-]?[0-9]+ upgraded, [0-9]+ newly installed, [0-9]+ to remove and [0-9]+ not upgraded\.$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: [ \+\-]?\(Reading database ... [0-9]+ files and directories currently installed\.\)
-^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: [ \+\-]?Processing triggers for .+ \.\.\.
-^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: [ \+\-]?Reading changelogs\.\.\.
-^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: [ \+\-]?Reading state information\.\.\.
-^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: [ \+\-]?The following packages will be upgraded\:
-^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: [ \+\-]?Need to get [0-9]+ kB of archives\.
-Fetched 2179 kB in 0s (2831 kB/s)
-Get:1 http://security.debian.org/ wheezy/updates/main curl amd64 7.26.0-1+wheezy7 [269 kB]
-  gnupg gpgv
-Building dependency tree...
-CRON-APT LINE: /usr/bin/apt-get -o quiet=1 dist-upgrade  -y -o APT::Get::Show-Upgraded=true
-
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: [ \+\-]?\(Reading database \.\.\. [0-9]+ files and directories currently installed\.\)$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: [ \+\-]?After this operation, .+ of additional disk space will be used\.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: [ \+\-]?Building dependency tree\.\.\.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: [ \+\-]?Fetched .+ in .+ \(.+\)$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: [ \+\-]?Get:[0-9]+ 
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: [ \+\-]?Need to get .+ of archives\.
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: [ \+\-]?Preparing to replace .+ \(using .+\) \.\.\.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: [ \+\-]?Preparing to replace .+ \.\.\.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: [ \+\-]?Processing triggers for .+ \.\.\.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: [ \+\-]?Reading changelogs\.\.\.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: [ \+\-]?Reading package lists\.\.\.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: [ \+\-]?Reading state information\.\.\.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: [ \+\-]?Setting up .+ \.\.\.
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: [ \+\-]?Starting .+: .+ \.\.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: [ \+\-]?Stopping .+: .+\.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: [ \+\-]?The following packages will be upgraded:$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: [ \+\-]?Unpacking replacement .+ \.\.\.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: \+ \-\- Salvatore Bonaccorso <carnil@debian.org>  Sat, 14 Dec 2013 22:15:25 +0100$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: \+.+ \(.+\) wheezy-security; urgency=high$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: \+\+\+ .+$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: \+After this operation, .+ disk space will be freed.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: \+apt-listchanges: Mailing root: apt-listchanges: news for .+$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: \+Checking for tables which need an upgrade, are corrupt or were$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: \+not closed cleanly\.\.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: \+Preconfiguring packages \.\.\.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: \-  [^ ]+$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: \- \-\- .+ <.+@.+>  .+$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: \-$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: \-.+ \(.+\) .+; urgency=.+$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: \-\-\- .+$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: \-After this operation, .+ disk space will be freed.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: apt-listchanges: Mailing root: apt-listchanges: news for .+$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: Checking for tables which need an upgrade, are corrupt or were$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: CRON-APT ACTION: 4-upgrade
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: CRON-APT LINE: /usr/bin/apt-get -o quiet=1 dist-upgrade  -y -o APT::Get::Show-Upgraded=true$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: CRON-APT LINE: /usr/bin/apt-get -o quiet=1 dist-upgrade -d -y -o APT::Get::Show-Upgraded=true$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: CRON-APT LINE: /usr/bin/apt-get -o quiet=1 upgrade -y  -o quiet=2
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: not closed cleanly\.\.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: Preconfiguring packages \.\.\.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt:$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: CRON\-APT ACTION: [0-9]+\-upgrade$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: -\-\-\-\- DIFF END HERE \-\-\-\-\-$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: CRON\-APT LINE\: \/usr\/bin\/apt\-get \-o quiet\=1 upgrade \-y  \-o quiet\=2$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: [ \+\-]?Unpacking replacement .+ \.\.\.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: [ \+\-]?Setting up .+ \.\.\.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: [ \+\-]?Preparing to replace .+ \.\.\.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: [ \+\-]?\(Reading database ... [0-9]+ files and directories currently installed\.\)$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: [ \+\-]?Processing triggers for .+ \.\.\.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: [ \+\-]?Reading changelogs\.\.\.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: [ \+\-]?Reading state information\.\.\.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: [ \+\-]?The following packages will be upgraded\:$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: [ \+\-]?Need to get [0-9]+ kB of archives\.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: [ \+\-]?Fetched 2179 kB in [0-9]+s \([0-9]+ kB/s\)$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: [ \+\-]?Get:[0-9]+ .+ .+ .+ .+ .+ \[[0-9]+ kB\]$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: [ \+\-]?Building dependency tree\.\.\.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: [ \+\-]?CRON\-APT LINE\: \/usr\/bin\/apt\-get \-o quiet\=1 dist\-upgrade  \-y \-o APT\:\:Get\:\:Show\-Upgraded\=true$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: CRON-APT LINE: /usr/bin/apt-get -o quiet=1 autoclean -y$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: [ \+\-]?Current default time zone: 'Etc/UTC'$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: [ \+\-]?Del .+ \[[0-9]+ [[:alnum:]]+]$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: [ \+\-]?gpg: key [[:alnum:]]+: "Debian Archive Automatic Signing Key (7.0/wheezy) <ftpmaster@debian.org>" not changed$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: [ \+\-]?gpg: key [[:alnum:]]+: "Debian Archive Automatic Signing Key (6.0/squeeze) <ftpmaster@debian.org>" not changed$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: [ \+\-]?gpg: key [[:alnum:]]+: ".+" not changed$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: [ \+\-]?gpg: Total number processed: [0-9]+$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: [ \+\-]?Installing new version of config file /etc/debian_version ...$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: [ \+\-]?Local time is now:      .+\.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: [ \+\-]?Run 'dpkg-reconfigure .+' if you wish to change it.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: [ \+\-]?Universal Time is now:  .+\.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: [ \+\-]gpg:[ ]+unchanged: [0-9]+$
 

@@ -1,0 +1,1 @@
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ avahi-daemon\[[0-9]+\]: Withdrawing workstation service for tun[0-9]+\.$

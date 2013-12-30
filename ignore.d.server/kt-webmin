@@ -1,0 +1,2 @@
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ webmin\[[0-9]+\]: Timeout of session for [a-zA-Z0-9\-\_]+$
+
