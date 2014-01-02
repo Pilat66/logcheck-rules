@@ -1,0 +1,1 @@
+^[[:alnum:]]{3} [ :[:digit:]]{11} [\._[:alnum:]-]+ [\/\._[:alnum:]-]+\[[0-9]+\]: nss_getpwnam: name 'root@localdomain' does not map into domain 'local'

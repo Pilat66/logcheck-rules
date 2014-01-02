@@ -4,3 +4,5 @@
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ kernel: device tap[0-9]+i[0-9]+ entered promiscuous mode
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ kernel: EXT3-fs \(dm-[0-9]+\): recovery complete
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ kernel: EXT3-fs \(dm-[0-9]+\): [0-9]+ orphan inodes deleted
+#Jan  2 02:08:34 proxmox2 kernel: CE: hpet increasing min_delta_ns to 40226 nsec
+^\w{3} [ :[:digit:]]{11} [\._[:alnum:]-]+ kernel: CE: hpet increasing min_delta_ns to [0-9]+ nsec
