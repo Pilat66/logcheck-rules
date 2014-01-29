@@ -81,4 +81,8 @@
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: [ \+\-]?Run 'dpkg-reconfigure .+' if you wish to change it.$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: [ \+\-]?Universal Time is now:  .+\.$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: [ \+\-]gpg:[ ]+unchanged: [0-9]+$
+#Dec 31 04:25:05 victoria cron-apt: After this operation, 1466 kB disk space will be freed.
+^\w{3} [ :[:digit:]]{11} [\._[:alnum:]-]+ cron-apt: After this operation, [0-9]+ [mgk]*B disk space will be freed.
+#Dec 31 04:23:03 victoria-perl-app cron-apt: CRON-APT LINE: /usr/bin/apt-get -o quiet=1 update -o quiet=2
+^\w{3} [ :[:digit:]]{11} [\._[:alnum:]-]+ cron-apt: CRON-APT LINE: /usr/bin/apt-get -o quiet=[0-9]+ update -o quiet=[0-9]+
 

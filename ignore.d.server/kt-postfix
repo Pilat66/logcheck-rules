@@ -6,9 +6,9 @@
 ^[[:alnum:]]{3} [ :[:digit:]]{11} [\._[:alnum:]-]+ [\/\._[:alnum:]-]+\[[0-9]+\]: client user: [[:alnum:]]+$
 ^[[:alnum:]]{3} [ :[:digit:]]{11} [\._[:alnum:]-]+ [\/\._[:alnum:]-]+\[[0-9]+\]: NTLM server step [0-9]+$
 ^[[:alnum:]]{3} [ :[:digit:]]{11} [\._[:alnum:]-]+ [\/\._[:alnum:]-]+\[[0-9]+\]: client flags: .+$
-^[[:alnum:]]{3} [ :[:digit:]]{11} [\._[:alnum:]-]+ [\/\._[:alnum:]-]+\[[0-9]+\]: warning: TLS library problem: [0-9]+:error:1408F10B:SSL routines:SSL3_GET_RECORD:wrong version number:s3_pkt.c:[0-9]+:$
-
-
+^[[:alnum:]]{3} [ :[:digit:]]{11} [\._[:alnum:]-]+ [\/\._[:alnum:]-]+\[[0-9]+\]: warning: TLS library problem: [0-9]
+^\w{3} [ :[:digit:]]{11} [\._[:alnum:]-]+ postfix/smtpd\[[0-9]+\]: SSL_accept error from unknown\[[0-9]+.[0-9]+.[0-9]+.[0-9]+\]: lost connection
+^\w{3} [ :[:digit:]]{11} [\._[:alnum:]-]+ postfix/smtpd\[[0-9]+\]: NOQUEUE: reject: VRFY from unknown\[[0-9]+.[0-9]+.[0-9]+.[0-9]+\]: [0-9]+ [0-9]+.[0-9]+.[0-9]+ <root>: Recipient address rejected: Greylisted, see http://postgrey.schweikert.ch/help/root.html; to=<root> proto=SMTP
 
 #Jan 27 06:44:40 victoria postfix/cleanup[24092]: 445B629E4001: warning: header Subject: poll 1,I,9866,N,1,427306429,10,223,,,1 from localhost.localdomain[127.0.0.1]; from=<inmc@victoria.marsat.ru> to=<poll@nudol.ru> proto=ESMTP helo=<localhost.localdomain>
 ^\w{3} [ :[:digit:]]{11} [\._[:alnum:]-]+ postfix/cleanup\[[0-9]+\]: [0-9A-F]{12}: warning: header Subject: poll .+ from localhost.localdomain\[[0-9]+.[0-9]+.[0-9]+.[0-9]+\]; from=<([^>]+){1}> to=<([^>]+){1}> proto=ESMTP helo=<([^>]+){1}>
