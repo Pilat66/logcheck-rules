@@ -9,3 +9,21 @@
 ^[[:alnum:]]{3} [ :[:digit:]]{11} [\._[:alnum:]-]+ [\/\._[:alnum:]-]+\[[0-9]+\]: connection terminated by peer
 ^\w{3} [ :[:digit:]]{11} [\._[:alnum:]-]+ sshd\[[0-9]+\]: Disconnecting: bad client public DH value \[preauth\]
 ^\w{3} [ :[:digit:]]{11} [\._[:alnum:]-]+ sshd\[[0-9]+\]: invalid public DH value: <= [0-9]+ \[preauth\]
+
+#Jan 28 02:17:10 vserver4 sshd[18947]: Received disconnect from 134.147.203.117: 11: Bye [preauth]
+^\w{3} [ :[:digit:]]{11} [\._[:alnum:]-]+ sshd\[[0-9]+\]: Received disconnect from [0-9]+.[0-9]+.[0-9]+.[0-9]+: [0-9]+: Bye \[preauth\]
+
+#Jan 29 09:45:14 firewall-rg sshd[24182]: Received disconnect from 130.207.203.56: 11: These aren't the droids we're looking for. [preauth]
+^\w{3} [ :[:digit:]]{11} [\._[:alnum:]-]+ sshd\[[0-9]+\]: Received disconnect from [0-9]+.[0-9]+.[0-9]+.[0-9]+: [0-9]+: These aren't the droids we're looking for. \[preauth\]
+
+#Jan 24 09:49:53 zabbix-az perl[13645]: pam_unix(webmin:auth): authentication failure; logname= uid=0 euid=0 tty=10000 ruser= rhost=111.22.333.94  user=root
+^\w{3} [ :[:digit:]]{11} [\._[:alnum:]-]+ perl\[[0-9]+\]: pam_unix\(webmin:auth\): authentication failure; logname= uid=[0-9]+ euid=[0-9]+ tty=[0-9]+ ruser= rhost=[0-9]+.[0-9]+.[0-9]+.[0-9]+  user=[0-9a-z\-]+
+
+#Jan 24 09:49:55 zabbix-az webmin[13645]: Invalid login as root from 111.22.333.94
+^\w{3} [ :[:digit:]]{11} [\._[:alnum:]-]+ webmin\[[0-9]+\]: Invalid login as [0-9a-z\-]+ from [0-9]+.[0-9]+.[0-9]+.[0-9]+
+
+#Jan 24 09:28:12 pg-hb-master sshd[4251]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=111.22.253.7
+^\w{3} [ :[:digit:]]{11} [\._[:alnum:]-]+ sshd\[[0-9]+\]: PAM [0-9]+ more authentication failures; logname= uid=[0-9]+ euid=[0-9]+ tty=ssh ruser= rhost=[0-9]+.[0-9]+.[0-9]+.[0-9]+
+
+#Jan 24 09:52:04 zabbix-az webmin[14751]: Successful login as root from 111.22.333.94
+^\w{3} [ :[:digit:]]{11} [\._[:alnum:]-]+ webmin\[[0-9]+\]: Successful login as root from [0-9]+.[0-9]+.[0-9]+.[0-9]+

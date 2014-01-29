@@ -1,3 +1,5 @@
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ vpnc\[[0-9]+\]: select: Interrupted system call
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ vpnc\[[0-9]+\]: terminated by signal: 15
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ vpnc\[[0-9]+\]: connection terminated by dead peer detection
+#Jan 25 00:12:46 zabbix-az vpnc[4797]: unknown spi 0xcd9cd05b from peer
+^\w{3} [ :[:digit:]]{11} [\._[:alnum:]-]+ vpnc\[[0-9]+\]: unknown spi 0x[a-z0-9]{8} from peer

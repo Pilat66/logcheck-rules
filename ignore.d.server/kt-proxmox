@@ -38,3 +38,23 @@
 #Jan 13 02:09:06 proxmox204 corosync[7663]:   [TOTEM ] Retransmit List: 5fbcc3
 ^\w{3} [ :[:digit:]]{11} [\._[:alnum:]-]+ corosync\[[0-9]+\]:   \[TOTEM \] Retransmit List: [0-9a-f]+
 
+#Jan 28 10:50:28 proxmox2 pvedaemon[673486]: <root@pam> end task UPID:proxmox2:000A5BCB:06CC5B6D:52E78B59:vncproxy:113:root@pam: OK
+^\w{3} [ :[:digit:]]{11} [\._[:alnum:]-]+ pvedaemon\[[0-9]+\]: <([^>]+){1}> end task UPID:[._[:alnum:]-]+: OK
+
+#Jan 28 13:31:56 proxmox2 pvedaemon[799166]: INFO: Backup job finished successfully
+^\w{3} [ :[:digit:]]{11} [\._[:alnum:]-]+ pvedaemon\[[0-9]+\]: INFO: Backup job finished successfully
+
+#Jan 18 21:15:16 proxmox2 /USR/SBIN/CRON[383512]: (CRON) error (grandchild #383514 failed with exit status 255)
+^\w{3} [ :[:digit:]]{11} [\._[:alnum:]-]+ /USR/SBIN/CRON\[[0-9]+\]: \(CRON\) error \(grandchild #[0-9]+ failed with exit status [0-9]+\)
+
+
+#Jan 29 06:39:17 proxmox2 pvedaemon[1013228]: start VM 117: UPID:proxmox2:000F75EC:07393CAC:52E8A215:qmstart:117:root@pam:
+^\w{3} [ :[:digit:]]{11} [\._[:alnum:]-]+ pvedaemon\[[0-9]+\]: start VM [0-9]+: UPID:[._[:alnum:]-]+:
+
+#Jan 29 06:39:17 proxmox2 pvedaemon[970273]: <root@pam> starting task UPID:proxmox2:000F75EC:07393CAC:52E8A215:qmstart:117:root@pam:
+^\w{3} [ :[:digit:]]{11} [\._[:alnum:]-]+ pvedaemon\[[0-9]+\]: <([^>]+){1}> starting task UPID:[._[:alnum:]-]+:
+
+#Jan 29 06:39:19 proxmox2 pvedaemon[970273]: <root@pam> end task UPID:proxmox2:000F75EC:07393CAC:52E8A215:qmstart:117:root@pam: OK
+^\w{3} [ :[:digit:]]{11} [\._[:alnum:]-]+ pvedaemon\[[0-9]+\]: <([^>]+){1}> end task UPID:.+: OK
+
+
