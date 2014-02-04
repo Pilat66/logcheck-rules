@@ -1,0 +1,5 @@
+#2014-02-04 14:48:01,279 barman.server INFO: Retention policy for server main: RECOVERY WINDOW OF 4 WEEKS
+^[0-9]{4}-[0-9]{2}-[0-9]{2} [0-9]{2}:[0-9]{2}:[0-9]{2},[0-9]+ barman.server INFO: Retention policy for server main: RECOVERY WINDOW OF [0-9]+ WEEKS
+
+#2014-02-04 14:48:01,280 barman.server INFO: WAL retention policy for server main: main
+^[0-9]{4}-[0-9]{2}-[0-9]{2} [0-9]{2}:[0-9]{2}:[0-9]{2},[0-9]+ barman.server INFO: WAL retention policy for server main: main
