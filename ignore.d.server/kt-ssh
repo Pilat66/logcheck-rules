@@ -27,3 +27,6 @@
 
 #Jan 24 09:52:04 zabbix-az webmin[14751]: Successful login as root from 111.22.333.94
 ^\w{3} [ :[:digit:]]{11} [\._[:alnum:]-]+ webmin\[[0-9]+\]: Successful login as root from [0-9]+.[0-9]+.[0-9]+.[0-9]+
+
+#Feb  3 06:15:08 zabbix-az sshd[14817]: Disconnecting: Change of username or service not allowed: (openssl,ssh-connection) -> (ssl,ssh-connection) [preauth]
+^\w{3} [ :[:digit:]]{11} [\._[:alnum:]-]+ sshd\[[0-9]+\]: Disconnecting: Change of username or service not allowed: \(openssl,ssh-connection\) -> \(ssl,ssh-connection\) \[preauth\]

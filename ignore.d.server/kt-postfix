@@ -18,3 +18,6 @@
 
 #Jan 26 20:34:15 vserver1 postfix/master[2933]: daemon started -- version 2.9.6, configuration /etc/postfix
 ^\w{3} [ :[:digit:]]{11} [\._[:alnum:]-]+ postfix/master\[[0-9]+\]: daemon started -- version [0-9]+.[0-9]+.[0-9]+, configuration /etc/postfix
+
+#Feb  2 18:00:05 vserver4 postfix/smtpd[20278]: warning: unknown[92.63.209.30]: SASL CRAM-MD5 authentication failed: bad protocol / cancel
+^\w{3} [ :[:digit:]]{11} [\._[:alnum:]-]+ postfix/smtpd\[[0-9]+\]: warning: unknown\[[0-9]+.[0-9]+.[0-9]+.[0-9]+\]: SASL CRAM-MD5 authentication failed: bad protocol / cancel

@@ -7,3 +7,8 @@
 #Jan  2 02:08:34 proxmox2 kernel: CE: hpet increasing min_delta_ns to 40226 nsec
 ^\w{3} [ :[:digit:]]{11} [\._[:alnum:]-]+ kernel: CE: hpet increasing min_delta_ns to [0-9]+ nsec
 ^\w{3} [ :[:digit:]]{11} [\._[:alnum:]-]+ kernel: NOHZ: local_softirq_pending [0-9]+
+
+#Feb  3 09:25:47 proxmox2 kernel: EXT4-fs (dm-1): Unaligned AIO/DIO on inode 14942213 by kvm; performance will be poor.
+# http://askubuntu.com/questions/118140/unaligned-aio-dio
+^\w{3} [ :[:digit:]]{11} [\._[:alnum:]-]+ kernel: EXT4-fs \(dm-[0-9]+\): Unaligned AIO/DIO on inode [0-9]+ by kvm; performance will be poor.
+
