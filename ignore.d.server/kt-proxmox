@@ -61,3 +61,7 @@
 #Feb  1 16:45:28 proxmox2 kernel: CT: 4017: stopped
 ^\w{3} [ :[:digit:]]{11} [\._[:alnum:]-]+ kernel: CT: [0-9]+: stopped
 
+
+#Feb  5 12:25:23 proxmox2 pvedaemon[1026953]: <[^>@]+@pam> successful auth for user 'cons@pve'
+^\w{3} [ :[:digit:]]{11} [\._[:alnum:]-]+ pvedaemon\[[0-9]+\]: <[^>]+> successful auth for user '[^'@]+@pve'
+
