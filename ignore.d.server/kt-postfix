@@ -8,16 +8,17 @@
 ^[[:alnum:]]{3} [ :[:digit:]]{11} [\._[:alnum:]-]+ [\/\._[:alnum:]-]+\[[0-9]+\]: client flags: .+$
 ^[[:alnum:]]{3} [ :[:digit:]]{11} [\._[:alnum:]-]+ [\/\._[:alnum:]-]+\[[0-9]+\]: warning: TLS library problem: [0-9]
 ^\w{3} [ :[:digit:]]{11} [\._[:alnum:]-]+ postfix/smtpd\[[0-9]+\]: SSL_accept error from unknown\[[0-9]+.[0-9]+.[0-9]+.[0-9]+\]: lost connection
-^\w{3} [ :[:digit:]]{11} [\._[:alnum:]-]+ postfix/smtpd\[[0-9]+\]: NOQUEUE: reject: VRFY from unknown\[[0-9]+.[0-9]+.[0-9]+.[0-9]+\]: [0-9]+ [0-9]+.[0-9]+.[0-9]+ <root>: Recipient address rejected: Greylisted, see http://postgrey.schweikert.ch/help/root.html; to=<root> proto=SMTP
+^\w{3} [ :[:digit:]]{11} [\._[:alnum:]-]+ postfix/smtpd\[[0-9]+\]: NOQUEUE: reject: VRFY from unknown\[[0-9]+.[0-9]+.[0-9]+.[0-9]+\]: [0-9]+ [0-9]+.[0-9]+.[0-9]+ <root>: Recipient address rejected: Greylisted,
 
-#Jan 27 06:44:40 victoria postfix/cleanup[24092]: 445B629E4001: warning: header Subject: poll 1,I,9866,N,1,427306429,10,223,,,1 from localhost.localdomain[127.0.0.1]; from=<inmc@victoria.marsat.ru> to=<poll@nudol.ru> proto=ESMTP helo=<localhost.localdomain>
-^\w{3} [ :[:digit:]]{11} [\._[:alnum:]-]+ postfix/cleanup\[[0-9]+\]: [0-9A-F]{12}: warning: header Subject: poll .+ from localhost.localdomain\[[0-9]+.[0-9]+.[0-9]+.[0-9]+\]; from=<([^>]+){1}> to=<([^>]+){1}> proto=ESMTP helo=<([^>]+){1}>
 
-#Jan 27 06:40:03 victoria postfix/cleanup[23997]: DEE1829E4001: warning: header Subject: victoria.lrit.ru 2014-01-27 06:40 System Events from local; from=<logcheck@Victoria-PKolganov-1> to=<logcheck@Victoria-PKolganov-1>
-^\w{3} [ :[:digit:]]{11} [\._[:alnum:]-]+ postfix/cleanup\[[0-9]+\]: [0-9A-F]{12}: warning: header[ ]
+#Jan 27 06:40:03 victoria postfix/cleanup[23997]: DEE1829E4001: warning: header Subject: zzz 2014-01-27 06:40 System Events from local; from=<logcheck@host> to=<logcheck@host>
+^\w{3} [ :[:digit:]]{11} [\._[:alnum:]-]+ postfix/cleanup\[[0-9]+\]: [0-9A-F]+: warning: header
 
 #Jan 26 20:34:15 vserver1 postfix/master[2933]: daemon started -- version 2.9.6, configuration /etc/postfix
-^\w{3} [ :[:digit:]]{11} [\._[:alnum:]-]+ postfix/master\[[0-9]+\]: daemon started -- version [0-9]+.[0-9]+.[0-9]+, configuration /etc/postfix
+^\w{3} [ :[:digit:]]{11} [\._[:alnum:]-]+ postfix/master\[[0-9]+\]: daemon started
 
 #Feb  2 18:00:05 vserver4 postfix/smtpd[20278]: warning: unknown[92.63.209.30]: SASL CRAM-MD5 authentication failed: bad protocol / cancel
 ^\w{3} [ :[:digit:]]{11} [\._[:alnum:]-]+ postfix/smtpd\[[0-9]+\]: warning: unknown\[[0-9]+.[0-9]+.[0-9]+.[0-9]+\]: SASL CRAM-MD5 authentication failed: bad protocol / cancel
+
+
+
