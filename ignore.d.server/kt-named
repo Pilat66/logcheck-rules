@@ -1,0 +1,2 @@
+#Feb  6 08:55:13 service named[1180]: client 172.16.99.105#48291: RFC 1918 response from Internet for 7.253.16.172.in-addr.arpa
+^\w{3} [ :[:digit:]]{11} [\._[:alnum:]-]+ named\[[0-9]+\]: client [0-9]+.[0-9]+.[0-9]+.[0-9]+#[0-9]+: RFC [0-9]+ response from Internet for [0-9]+.[0-9]+.[0-9]+.[0-9]+.in-addr.arpa

@@ -1,0 +1,17 @@
+#Feb  6 09:00:07 service dhcpd: DHCPINFORM from 172.16.97.97 via eth0: not authoritative for subnet 172.16.96.0
+^\w{3} [ :[:digit:]]{11} [\._[:alnum:]-]+ dhcpd: DHCPINFORM from [0-9]+.[0-9]+.[0-9]+.[0-9]+ via [a-z0-9]+: not authoritative for subnet [0-9]+.[0-9]+.[0-9]+.[0-9]+
+
+^\w{3} [ :[:digit:]]{11} [\._[:alnum:]-]+ dhcpd: please write an
+
+#Feb  6 08:01:12 service dhcpd: If this DHCP server is authoritative for that subnet,
+^\w{3} [ :[:digit:]]{11} [\._[:alnum:]-]+ dhcpd: If this DHCP server is authoritative for that subnet,
+
+#Feb  6 08:01:12 service dhcpd: of the dhcpd.conf file.
+^\w{3} [ :[:digit:]]{11} [\._[:alnum:]-]+ dhcpd: of the dhcpd.conf file.
+
+#Feb  6 08:01:12 service dhcpd: subnet declaration - for example, write it at the top
+^\w{3} [ :[:digit:]]{11} [\._[:alnum:]-]+ dhcpd: subnet declaration - for example, write it at the top
+
+#Feb  6 08:01:12 service dhcpd: subnet declaration or in some scope that encloses the
+^\w{3} [ :[:digit:]]{11} [\._[:alnum:]-]+ dhcpd: subnet declaration or in some scope that encloses the
+
