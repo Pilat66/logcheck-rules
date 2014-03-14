@@ -8,3 +8,7 @@
 
 
 ^[0-9]{4}-[0-9]{2}-[0-9]{2} [0-9]{2}:[0-9]{2}:[0-9]{2} UTC STATEMENT:  SELECT SRID FROM GEOGRAPHY_COLUMNS WHERE F_TABLE_SCHEMA = '[a-z]+' AND F_TABLE_NAME = '[a-z]+' AND F_GEOGRAPHY_COLUMN = 'the_geom'
+
+^[0-9]{4}-[0-9]{2}-[0-9]{2} [0-9]{2}:[0-9]{2}:[0-9]{2} UTC LOG:  could not receive data from client: Connection reset by peer
+
+^[0-9]{4}-[0-9]{2}-[0-9]{2} [0-9]{2}:[0-9]{2}:[0-9]{2} UTC LOG:  unexpected EOF on client connection
