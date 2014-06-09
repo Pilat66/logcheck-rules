@@ -1,0 +1,8 @@
+Connect to Oracle...OK.
+Connect to PG...OK.
+WARNING: releasing 1 pending lock...
+^\w{3} [ :[:digit:]]{11}Тестируем судно lon:[0-9\.]+ lat:[0-9\.]+ at check-intruders.pl line [0-9]+.
+^\w{3} \w{3} [ :[:digit:]]{16} at check-intruders.pl line [0-9]+.
+Запускаем регистрацию нарушителей. at check-intruders.pl line [0-9]+.
+Судно в море [a-zZ-Z\-] at /home/zone/www/bin/../lib/KT/CheckZone/Postgis.pm line [0-9]+.
+Тестируем судно [0-9]+ в точке lon:[0-9\.]+ lat:[0-9\.]+ at check-intruders.pl line [0-9]+.
